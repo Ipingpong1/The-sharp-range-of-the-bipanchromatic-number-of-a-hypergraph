@@ -1,0 +1,582 @@
+[
+  {
+    "name": "Bipanchromatic.dissolution_count",
+    "file": "Arithmetic.lean",
+    "line": 15
+  },
+  {
+    "name": "Bipanchromatic.loss_antitone",
+    "file": "Arithmetic.lean",
+    "line": 21
+  },
+  {
+    "name": "Bipanchromatic.loss_step",
+    "file": "Arithmetic.lean",
+    "line": 27
+  },
+  {
+    "name": "Bipanchromatic.concentrated_positive_min",
+    "file": "Arithmetic.lean",
+    "line": 33
+  },
+  {
+    "name": "Bipanchromatic.concentrated_beats_pairing",
+    "file": "Arithmetic.lean",
+    "line": 39
+  },
+  {
+    "name": "Bipanchromatic.concentrated_endpoint",
+    "file": "Arithmetic.lean",
+    "line": 45
+  },
+  {
+    "name": "Bipanchromatic.bounded_jump_intermediate",
+    "file": "Arithmetic.lean",
+    "line": 54
+  },
+  {
+    "name": "Bipanchromatic.balanced_topSum",
+    "file": "SharpRange/Balanced.lean",
+    "line": 8
+  },
+  {
+    "name": "Bipanchromatic.balanced_sizeValue",
+    "file": "SharpRange/Balanced.lean",
+    "line": 36
+  },
+  {
+    "name": "Bipanchromatic.exists_balanced",
+    "file": "SharpRange/Balanced.lean",
+    "line": 46
+  },
+  {
+    "name": "Bipanchromatic.size_vector_interval",
+    "file": "SharpRange/Balanced.lean",
+    "line": 61
+  },
+  {
+    "name": "Bipanchromatic.size_vector_spectrum",
+    "file": "SharpRange/Balanced.lean",
+    "line": 85
+  },
+  {
+    "name": "Bipanchromatic.Model.mem_core",
+    "file": "SharpRange/Construction.lean",
+    "line": 20
+  },
+  {
+    "name": "Bipanchromatic.Model.mem_part",
+    "file": "SharpRange/Construction.lean",
+    "line": 25
+  },
+  {
+    "name": "Bipanchromatic.Model.card_core",
+    "file": "SharpRange/Construction.lean",
+    "line": 30
+  },
+  {
+    "name": "Bipanchromatic.Model.card_part",
+    "file": "SharpRange/Construction.lean",
+    "line": 35
+  },
+  {
+    "name": "Bipanchromatic.Model.card_vertices",
+    "file": "SharpRange/Construction.lean",
+    "line": 43
+  },
+  {
+    "name": "Bipanchromatic.Model.card_edge",
+    "file": "SharpRange/Construction.lean",
+    "line": 47
+  },
+  {
+    "name": "Bipanchromatic.Model.transversal_iff",
+    "file": "SharpRange/Construction.lean",
+    "line": 76
+  },
+  {
+    "name": "Bipanchromatic.Model.uniform",
+    "file": "SharpRange/Construction.lean",
+    "line": 117
+  },
+  {
+    "name": "Bipanchromatic.Model.naturalColor_surjective",
+    "file": "SharpRange/Construction.lean",
+    "line": 129
+  },
+  {
+    "name": "Bipanchromatic.Model.fiber_core",
+    "file": "SharpRange/Construction.lean",
+    "line": 136
+  },
+  {
+    "name": "Bipanchromatic.Model.fiber_part",
+    "file": "SharpRange/Construction.lean",
+    "line": 143
+  },
+  {
+    "name": "Bipanchromatic.Model.natural_panchromatic",
+    "file": "SharpRange/Construction.lean",
+    "line": 159
+  },
+  {
+    "name": "Bipanchromatic.Model.natural_card",
+    "file": "SharpRange/Construction.lean",
+    "line": 169
+  },
+  {
+    "name": "Bipanchromatic.Model.hasPan",
+    "file": "SharpRange/Construction.lean",
+    "line": 174
+  },
+  {
+    "name": "Bipanchromatic.Model.natural_singletons",
+    "file": "SharpRange/Construction.lean",
+    "line": 183
+  },
+  {
+    "name": "Bipanchromatic.Model.core_cooccurs",
+    "file": "SharpRange/Construction.lean",
+    "line": 211
+  },
+  {
+    "name": "Bipanchromatic.Model.optimal_core_singletons",
+    "file": "SharpRange/Construction.lean",
+    "line": 229
+  },
+  {
+    "name": "Bipanchromatic.Model.hasAlpha",
+    "file": "SharpRange/Construction.lean",
+    "line": 236
+  },
+  {
+    "name": "Bipanchromatic.Model.common_core",
+    "file": "SharpRange/Construction.lean",
+    "line": 259
+  },
+  {
+    "name": "Bipanchromatic.Model.parameters",
+    "file": "SharpRange/Construction.lean",
+    "line": 278
+  },
+  {
+    "name": "Bipanchromatic.partition_card_sum",
+    "file": "SharpRange/Definitions.lean",
+    "line": 47
+  },
+  {
+    "name": "Bipanchromatic.bipan_card_le_half",
+    "file": "SharpRange/Definitions.lean",
+    "line": 53
+  },
+  {
+    "name": "Bipanchromatic.bipan_singletonCount",
+    "file": "SharpRange/Definitions.lean",
+    "line": 60
+  },
+  {
+    "name": "Bipanchromatic.panchromatic_bipan_iff",
+    "file": "SharpRange/Definitions.lean",
+    "line": 69
+  },
+  {
+    "name": "Bipanchromatic.range_upper",
+    "file": "SharpRange/Definitions.lean",
+    "line": 84
+  },
+  {
+    "name": "Bipanchromatic.parameter_feasible",
+    "file": "SharpRange/Definitions.lean",
+    "line": 97
+  },
+  {
+    "name": "Bipanchromatic.singleton_transversal_iff",
+    "file": "SharpRange/Definitions.lean",
+    "line": 111
+  },
+  {
+    "name": "Bipanchromatic.pan_card_le_edge",
+    "file": "SharpRange/Definitions.lean",
+    "line": 122
+  },
+  {
+    "name": "Bipanchromatic.mem_fiber",
+    "file": "SharpRange/Definitions.lean",
+    "line": 150
+  },
+  {
+    "name": "Bipanchromatic.fiber_nonempty",
+    "file": "SharpRange/Definitions.lean",
+    "line": 154
+  },
+  {
+    "name": "Bipanchromatic.fiber_injective",
+    "file": "SharpRange/Definitions.lean",
+    "line": 160
+  },
+  {
+    "name": "Bipanchromatic.colorPartition_card",
+    "file": "SharpRange/Definitions.lean",
+    "line": 167
+  },
+  {
+    "name": "Bipanchromatic.colorPartition_partition",
+    "file": "SharpRange/Definitions.lean",
+    "line": 172
+  },
+  {
+    "name": "Bipanchromatic.partition_contains",
+    "file": "SharpRange/Definitions.lean",
+    "line": 196
+  },
+  {
+    "name": "Bipanchromatic.mem_owner",
+    "file": "SharpRange/Definitions.lean",
+    "line": 205
+  },
+  {
+    "name": "Bipanchromatic.owner_eq_of_mem",
+    "file": "SharpRange/Definitions.lean",
+    "line": 208
+  },
+  {
+    "name": "Bipanchromatic.saturated_edge_same_class",
+    "file": "SharpRange/Definitions.lean",
+    "line": 215
+  },
+  {
+    "name": "Bipanchromatic.forced_singleton",
+    "file": "SharpRange/Definitions.lean",
+    "line": 236
+  },
+  {
+    "name": "Bipanchromatic.hasPan_unique",
+    "file": "SharpRange/Definitions.lean",
+    "line": 259
+  },
+  {
+    "name": "Bipanchromatic.hasAlpha_unique",
+    "file": "SharpRange/Definitions.lean",
+    "line": 266
+  },
+  {
+    "name": "Bipanchromatic.hasBipan_unique",
+    "file": "SharpRange/Definitions.lean",
+    "line": 274
+  },
+  {
+    "name": "Bipanchromatic.topSum_zero",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 8
+  },
+  {
+    "name": "Bipanchromatic.concentrated_topSum",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 10
+  },
+  {
+    "name": "Bipanchromatic.concentrated_total",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 28
+  },
+  {
+    "name": "Bipanchromatic.concentrated_sizeValue",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 39
+  },
+  {
+    "name": "Bipanchromatic.sizeValue_ge_balanced",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 71
+  },
+  {
+    "name": "Bipanchromatic.sizeValue_upper",
+    "file": "SharpRange/Endpoints.lean",
+    "line": 87
+  },
+  {
+    "name": "Bipanchromatic.model_value",
+    "file": "SharpRange/Full.lean",
+    "line": 9
+  },
+  {
+    "name": "Bipanchromatic.sharp_range_witness",
+    "file": "SharpRange/Full.lean",
+    "line": 14
+  },
+  {
+    "name": "Bipanchromatic.sharp_range",
+    "file": "SharpRange/Full.lean",
+    "line": 68
+  },
+  {
+    "name": "Bipanchromatic.Model.parts_disjoint",
+    "file": "SharpRange/ModelValue.lean",
+    "line": 10
+  },
+  {
+    "name": "Bipanchromatic.Model.core_part_disjoint",
+    "file": "SharpRange/ModelValue.lean",
+    "line": 19
+  },
+  {
+    "name": "Bipanchromatic.Model.bicoloring_attains",
+    "file": "SharpRange/ModelValue.lean",
+    "line": 26
+  },
+  {
+    "name": "Bipanchromatic.Model.bicoloring_le",
+    "file": "SharpRange/ModelValue.lean",
+    "line": 44
+  },
+  {
+    "name": "Bipanchromatic.Model.hasBipan",
+    "file": "SharpRange/ModelValue.lean",
+    "line": 128
+  },
+  {
+    "name": "Bipanchromatic.complete_packing",
+    "file": "SharpRange/Packing.lean",
+    "line": 9
+  },
+  {
+    "name": "Bipanchromatic.pairPacking_empty",
+    "file": "SharpRange/Pairing.lean",
+    "line": 13
+  },
+  {
+    "name": "Bipanchromatic.PairPacking.mono",
+    "file": "SharpRange/Pairing.lean",
+    "line": 16
+  },
+  {
+    "name": "Bipanchromatic.PairPacking.insert",
+    "file": "SharpRange/Pairing.lean",
+    "line": 25
+  },
+  {
+    "name": "Bipanchromatic.exists_pairPacking",
+    "file": "SharpRange/Pairing.lean",
+    "line": 63
+  },
+  {
+    "name": "Bipanchromatic.GoodPacking.union",
+    "file": "SharpRange/Recoloring.lean",
+    "line": 13
+  },
+  {
+    "name": "Bipanchromatic.GoodPacking.complete",
+    "file": "SharpRange/Recoloring.lean",
+    "line": 40
+  },
+  {
+    "name": "Bipanchromatic.recolor_parts",
+    "file": "SharpRange/Recoloring.lean",
+    "line": 49
+  },
+  {
+    "name": "Bipanchromatic.recolor_sizeValue",
+    "file": "SharpRange/Recoloring.lean",
+    "line": 124
+  },
+  {
+    "name": "Bipanchromatic.image_set_injective",
+    "file": "SharpRange/Relabel.lean",
+    "line": 10
+  },
+  {
+    "name": "Bipanchromatic.mapBlocks_card",
+    "file": "SharpRange/Relabel.lean",
+    "line": 14
+  },
+  {
+    "name": "Bipanchromatic.mapBlocks_inverse",
+    "file": "SharpRange/Relabel.lean",
+    "line": 18
+  },
+  {
+    "name": "Bipanchromatic.hypergraph_ext",
+    "file": "SharpRange/Relabel.lean",
+    "line": 30
+  },
+  {
+    "name": "Bipanchromatic.relabel_inverse",
+    "file": "SharpRange/Relabel.lean",
+    "line": 36
+  },
+  {
+    "name": "Bipanchromatic.map_partition",
+    "file": "SharpRange/Relabel.lean",
+    "line": 40
+  },
+  {
+    "name": "Bipanchromatic.map_transversal",
+    "file": "SharpRange/Relabel.lean",
+    "line": 63
+  },
+  {
+    "name": "Bipanchromatic.map_panchromatic",
+    "file": "SharpRange/Relabel.lean",
+    "line": 71
+  },
+  {
+    "name": "Bipanchromatic.pull_panchromatic",
+    "file": "SharpRange/Relabel.lean",
+    "line": 78
+  },
+  {
+    "name": "Bipanchromatic.map_bicoloring",
+    "file": "SharpRange/Relabel.lean",
+    "line": 82
+  },
+  {
+    "name": "Bipanchromatic.pull_bicoloring",
+    "file": "SharpRange/Relabel.lean",
+    "line": 90
+  },
+  {
+    "name": "Bipanchromatic.map_singletonCount",
+    "file": "SharpRange/Relabel.lean",
+    "line": 95
+  },
+  {
+    "name": "Bipanchromatic.relabel_hasPan",
+    "file": "SharpRange/Relabel.lean",
+    "line": 102
+  },
+  {
+    "name": "Bipanchromatic.relabel_hasAlpha",
+    "file": "SharpRange/Relabel.lean",
+    "line": 110
+  },
+  {
+    "name": "Bipanchromatic.relabel_hasBipan",
+    "file": "SharpRange/Relabel.lean",
+    "line": 120
+  },
+  {
+    "name": "Bipanchromatic.mem_commonCore",
+    "file": "SharpRange/Relabel.lean",
+    "line": 138
+  },
+  {
+    "name": "Bipanchromatic.relabel_commonCore",
+    "file": "SharpRange/Relabel.lean",
+    "line": 143
+  },
+  {
+    "name": "Bipanchromatic.relabel_uniform",
+    "file": "SharpRange/Relabel.lean",
+    "line": 164
+  },
+  {
+    "name": "Bipanchromatic.subset_sum_le_topSum",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 17
+  },
+  {
+    "name": "Bipanchromatic.exists_topSum",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 23
+  },
+  {
+    "name": "Bipanchromatic.maximizing_is_largest",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 32
+  },
+  {
+    "name": "Bipanchromatic.topSum_largest",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 46
+  },
+  {
+    "name": "Bipanchromatic.balanced_sum_bound",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 54
+  },
+  {
+    "name": "Bipanchromatic.topSum_balanced_bound",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 82
+  },
+  {
+    "name": "Bipanchromatic.sizeValue_step",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 96
+  },
+  {
+    "name": "Bipanchromatic.transfer_sum_identity",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 123
+  },
+  {
+    "name": "Bipanchromatic.exists_topSum_containing",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 141
+  },
+  {
+    "name": "Bipanchromatic.topSum_transfer",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 159
+  },
+  {
+    "name": "Bipanchromatic.sizeValue_transfer",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 183
+  },
+  {
+    "name": "Bipanchromatic.transfer_total",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 189
+  },
+  {
+    "name": "Bipanchromatic.transfer_admissible",
+    "file": "SharpRange/SizeVectors.lean",
+    "line": 196
+  },
+  {
+    "name": "Bipanchromatic.balancedLower_eq_sub_minLoss",
+    "file": "SharpRange/Target.lean",
+    "line": 15
+  },
+  {
+    "name": "Bipanchromatic.transferStep_value",
+    "file": "SharpRange/TransferPath.lean",
+    "line": 11
+  },
+  {
+    "name": "Bipanchromatic.reaches_concentrated",
+    "file": "SharpRange/TransferPath.lean",
+    "line": 16
+  },
+  {
+    "name": "Bipanchromatic.transfer_path_intermediate",
+    "file": "SharpRange/TransferPath.lean",
+    "line": 48
+  },
+  {
+    "name": "Bipanchromatic.transfer_path_invariants",
+    "file": "SharpRange/TransferPath.lean",
+    "line": 61
+  },
+  {
+    "name": "Bipanchromatic.numerical_no_gaps",
+    "file": "SharpRange/TransferPath.lean",
+    "line": 73
+  },
+  {
+    "name": "Bipanchromatic.singletonVertices_card",
+    "file": "SharpRange/UniversalLower.lean",
+    "line": 10
+  },
+  {
+    "name": "Bipanchromatic.lower_from_coloring",
+    "file": "SharpRange/UniversalLower.lean",
+    "line": 30
+  },
+  {
+    "name": "Bipanchromatic.universal_lower",
+    "file": "SharpRange/UniversalLower.lean",
+    "line": 106
+  }
+]

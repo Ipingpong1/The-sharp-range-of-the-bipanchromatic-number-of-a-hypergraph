@@ -1,0 +1,15 @@
+ℹ [8923/8940] Replayed Arithmetic
+info: Arithmetic.lean:68:0: 'Bipanchromatic.dissolution_count' depends on axioms: [propext, Quot.sound]
+info: Arithmetic.lean:69:0: 'Bipanchromatic.loss_antitone' depends on axioms: [propext, Quot.sound]
+info: Arithmetic.lean:70:0: 'Bipanchromatic.loss_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Arithmetic.lean:71:0: 'Bipanchromatic.concentrated_positive_min' depends on axioms: [propext, Quot.sound]
+info: Arithmetic.lean:72:0: 'Bipanchromatic.concentrated_beats_pairing' depends on axioms: [propext, Quot.sound]
+info: Arithmetic.lean:73:0: 'Bipanchromatic.concentrated_endpoint' depends on axioms: [propext, Quot.sound]
+info: Arithmetic.lean:74:0: 'Bipanchromatic.bounded_jump_intermediate' depends on axioms: [propext, Quot.sound]
+✔ [8934/8940] Built SharpRange.Balanced (18s)
+✔ [8935/8940] Built SharpRange.Relabel (18s)
+✔ [8936/8940] Built SharpRange.Target (3.0s)
+✔ [8937/8940] Built SharpRange.UniversalLower (3.2s)
+✔ [8938/8940] Built SharpRange.Full (3.4s)
+✔ [8939/8940] Built SharpRange (2.9s)
+Build completed successfully (8940 jobs).

@@ -1,0 +1,620 @@
+{
+  "status": "full_sharp_range_verified",
+  "full_hypergraph_range_theorem_proved": true,
+  "scope": "p >= 2, 1 <= a < p, 2*p <= n+a",
+  "uniform_witness_with_exact_core_proved": true,
+  "fresh_kernel_replay": true,
+  "verified_utc": "2026-10-09T04:12:18.195808+00:00",
+  "lean_version": "Lean (version 4.34.1, arm64-apple-darwin24.6.0, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "public_proved_declarations_audited": 116,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "reports": {
+    "Bipanchromatic.dissolution_count": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.loss_antitone": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.loss_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_positive_min": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_beats_pairing": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_endpoint": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.bounded_jump_intermediate": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.balanced_topSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.balanced_sizeValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.exists_balanced": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.size_vector_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.size_vector_spectrum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.mem_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.mem_part": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.card_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.card_part": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.card_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.card_edge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.transversal_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.naturalColor_surjective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.fiber_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.fiber_part": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.natural_panchromatic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.natural_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.hasPan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.natural_singletons": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.core_cooccurs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.optimal_core_singletons": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.hasAlpha": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.common_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.partition_card_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.bipan_card_le_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.bipan_singletonCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.panchromatic_bipan_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.range_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.parameter_feasible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.singleton_transversal_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.pan_card_le_edge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.mem_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.fiber_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.fiber_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.colorPartition_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.colorPartition_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.partition_contains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.mem_owner": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.owner_eq_of_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.saturated_edge_same_class": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.forced_singleton": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.hasPan_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.hasAlpha_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.hasBipan_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.topSum_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_topSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_total": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.concentrated_sizeValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sizeValue_ge_balanced": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sizeValue_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.model_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sharp_range_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sharp_range": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.parts_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.core_part_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.bicoloring_attains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.bicoloring_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.Model.hasBipan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.complete_packing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.pairPacking_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.PairPacking.mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.PairPacking.insert": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.exists_pairPacking": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.GoodPacking.union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.GoodPacking.complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.recolor_parts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.recolor_sizeValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.image_set_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.mapBlocks_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.mapBlocks_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.hypergraph_ext": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.map_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.map_transversal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.map_panchromatic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.pull_panchromatic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.map_bicoloring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.pull_bicoloring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.map_singletonCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_hasPan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_hasAlpha": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_hasBipan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.mem_commonCore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_commonCore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.relabel_uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.subset_sum_le_topSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.exists_topSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.maximizing_is_largest": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.topSum_largest": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.balanced_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.topSum_balanced_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sizeValue_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transfer_sum_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.exists_topSum_containing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.topSum_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.sizeValue_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transfer_total": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transfer_admissible": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.balancedLower_eq_sub_minLoss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transferStep_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.reaches_concentrated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transfer_path_intermediate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.transfer_path_invariants": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.numerical_no_gaps": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.singletonVertices_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.lower_from_coloring": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Bipanchromatic.universal_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "sha256": {
+    "Arithmetic.lean": "35d36f9f7d9b2f0a888547b85dbc62bef465b66d6f6923a18fe3e067c4c95dc2",
+    "SharpRange.lean": "30c8176f708de23ccc8d4b2fec8a0c72c4ea455434c83099dcfd5a7b4fab3ca7",
+    "SharpRange/Audit.lean": "284388faf441300c8f40c5fe0ae8f48892183fe4053b6fc5fe5ab806021166ab",
+    "SharpRange/Balanced.lean": "97cff23cdeead55336de5418d47b0e0438f2f55f7d1a4272bd3a3c742ece0bcc",
+    "SharpRange/Construction.lean": "e01e4a5eb3b2d019027fdc16624d3bb3a345e9886ad458c3bc2551c78202c61f",
+    "SharpRange/Definitions.lean": "63d4868561dd52a51695fc6940c4126060edb10c36ebd02c6d9dcaa03906b457",
+    "SharpRange/Endpoints.lean": "5119f8cab023e69a9ded3e9d893c3053074b83f9acf6c8628ea163c49bf50bc0",
+    "SharpRange/Full.lean": "c5471c8f397e748bc425b74e912e3ee0543c6324d3239dd562ec8737b900d4a5",
+    "SharpRange/ModelValue.lean": "a1f87fe4f56c74608764e6b622a1ba011adfbfa2900fbc563b49c87d99ca2684",
+    "SharpRange/Packing.lean": "34eb2d8660223f8cc547a1f257bfbd3cdb34db4d46749c104642a9d28e0e3a82",
+    "SharpRange/Pairing.lean": "51f2ef55ba65cf7876be46b89f096a16725339d6734a96ca1c6dcad2323c985a",
+    "SharpRange/Recoloring.lean": "3578cb4d39ec042d5f3ac41b2b71dc60d8c34fb3f9593ea43f16e1e1c42eaa05",
+    "SharpRange/Relabel.lean": "0b7516bd20b26f8f1830637d39cf4564ab851def8a72f6387f4bf2633f4c3526",
+    "SharpRange/SizeVectors.lean": "ee17fb02d6410e8a2045977de1055f68a96b9370ea578dfc9328922a347cbf6c",
+    "SharpRange/Target.lean": "95df465ca322a27aa335c4d0f0349c3dd1f7d81ab3d6834abcabf0eff0fac9f3",
+    "SharpRange/TransferPath.lean": "3c1ef401f745a3f0465437404a1866f255ab2c8b9c84b91c0ab29c6938317b5a",
+    "SharpRange/UniversalLower.lean": "418f8b841ce675f0f6dadacb24aaf32ef16fcb28c956b1db57383537bc5b350f",
+    "lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+    "lakefile.toml": "de5fbf369664e3cce72c325b879e303e8428e4c3377d330fa8e366e33e6ddc37",
+    "lake-manifest.json": "afc28d76655487a3370e4a624f38cef38b3bb8cb8577da1033923d7fabed0b21",
+    "theorem-index.json": "7d671428e0958bf12dbb01c43a5c94c740a796b6c70d7003d8ae96e16b2ac4cd",
+    "verify.py": "80a198a0caa3ae33af0ba08ea303a49884e6ce5f93ddb6fb048cd27899392a7b"
+  },
+  "unproved_targets": [],
+  "final_theorems": [
+    "Bipanchromatic.sharp_range",
+    "Bipanchromatic.sharp_range_witness"
+  ],
+  "kernel_replay_completed_utc": "2026-10-09T04:11:45.973539+00:00",
+  "audit_note": "Reran the axiom audit after correcting four qualified helper names in its index. The theorem sources and kernel-replayed module are unchanged."
+}

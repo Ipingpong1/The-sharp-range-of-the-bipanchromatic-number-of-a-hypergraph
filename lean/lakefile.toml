@@ -1,0 +1,14 @@
+name = "bipanchromatic"
+version = "0.1.0"
+defaultTargets = ["SharpRange"]
+
+[[lean_lib]]
+name = "Arithmetic"
+
+[[lean_lib]]
+name = "SharpRange"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.34.1"
